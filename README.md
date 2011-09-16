@@ -3,6 +3,8 @@
 
 This Rails Engine provides the easiest way to handle OAuth authentication mechanism with BlueVia API in a Rails application.
 
+If you want to use any other BlueVia API, please go to [Bluevia portal SDKs sections](https://bluevia.com/en/knowledge/sdks.Ruby) and check for the latest available gem.
+
 # Installation
 
 After creating a Rails 3 application...
@@ -43,6 +45,8 @@ After creating a Rails 3 application...
     <%=link_to t("launch\_bluevia\_oauth"), bluevia\_index\_path%>
 
 # License
+
+Check the [License](LICENSE.txt) file.
 
 
 # Author

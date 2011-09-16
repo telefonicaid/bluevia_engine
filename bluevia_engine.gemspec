@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["juandebravo"]
   s.email       = ["juandebravo@gmail.com"]
   s.homepage    = "https://github.com/juandebravo/bluevia_engine"
-  s.summary     = %q{Rails Engine to provide Bluevia oAuth mechanism in a seamless way}
-  s.description = %q{Rails Engine to provide Bluevia oAuth mechanism in a seamless way}
+  s.summary     = %q{Rails Engine to provide BlueVia oAuth mechanism in a seamless way}
+  s.description = %q{Rails Engine to provide BlueVia oAuth mechanism in a seamless way}
 
   s.rubyforge_project = "bluevia_engine"
 
