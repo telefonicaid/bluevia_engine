@@ -1,0 +1,50 @@
+<style >
+#bluevia_oauth {
+  margin-left: 10%;
+  width: 80%;
+  font-size: 1em; 
+  font-family: 'Verdana', 'Helvetica', 'Arial';
+}
+
+#bluevia_oauth h2{
+  margin-top: 50px;
+  color: #47C3D3;
+}
+
+#bluevia_oauth dt{
+  float: left;
+  font-weight: bold;
+  width: 30%;
+}
+
+#bluevia_oauth dd{
+  width: 70%;
+}
+
+#bluevia_oauth p{
+  margin-top: 50px;
+}
+
+#bluevia_oauth .email{
+  float: right;
+}
+
+</style>
+
+<div id="bluevia_oauth">
+  <h2>BlueVia Engine</h2>
+  <p><h4>This is the data to be used to send requests to BlueVia on behalf of the user:</h4></p>
+  <dl>
+    <dt>User token</dt>
+      <dd><%=@data[:token]%></dd>
+    <dt>User token secret</dt>
+      <dd><%=@data[:token_secret]%></dd>
+  </dl>
+  <p>
+    So now that you have it working, please go to the configuration initializer and set up a cool forward page instead of this :)
+  </p>
+  <p class="email">
+    jdbd at tid dot es
+  </p>
+  
+</div>
