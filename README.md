@@ -1,4 +1,3 @@
-
 # Description
 
 This Rails Engine provides the easiest way to handle OAuth authentication mechanism with BlueVia API in a Rails application.
@@ -11,11 +10,14 @@ After creating a Rails 3 application...
 
 * Use Gemfile as usual to define the bluevia_engine dependency
 
+
     gem 'bluevia-engine'
+
 
 * Run the generator to copy the configuration file template into your rails application initializers folder
 
     rails generate  bluevia_engine:install
+
 
 # How to use
 
@@ -23,19 +25,24 @@ After creating a Rails 3 application...
 
 * Define your BlueVia application credentials in the file config/initializers/bluevia\_engine\_initializer.rb
 
-    # Application unique identifier. Actually its not needed at all
+    \# Application unique identifier. Actually its not needed at all
+    
     Rails.application.config.bluevia.application_id = "your-bluevia-application-id"
 
-    # Application key. This is the first element to authenticate an application
+    \# Application key. This is the first element to authenticate an application
+    
     Rails.application.config.bluevia.key = "your-bluevia-application-key"
 
-    # Application secret. This is the second element to authenticate an application
+    \# Application secret. This is the second element to authenticate an application
+    
     Rails.application.config.bluevia.secret = "your-bluevia-application-secret"
 
 * Define the controller#action where you would like to receive the OAuth response data. You'll get two parameters: **token** and **token\_secret\_** that you should handle accordingly.
 
-    # Where to forward the OAuth response data
-    # By default is configured an action include in the Engine that prints the token and secret got from BlueVia
+    \# Where to forward the OAuth response data
+    
+    \# By default is configured an action include in the Engine that prints the token and secret got from BlueVia
+    
     Rails.application.config.bluevia.forward_action = "bluevia#show"
 
 ## Launch OAuth process
