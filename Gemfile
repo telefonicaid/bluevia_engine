@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-# Specify your gem's dependencies in hash-blue.gemspec
+# Specify your gem's dependencies in bluevia_engine.gemspec
 gemspec
 
 group :development, :test do
