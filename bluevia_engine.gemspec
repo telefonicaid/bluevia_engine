@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = BlueviaEngine::VERSION
   s.authors     = ["juandebravo"]
   s.email       = ["juandebravo@gmail.com"]
-  s.homepage    = "https://github.com/juandebravo/bluevia_engine"
+  s.homepage    = "https://github.com/telefonicaid/bluevia_engine"
   s.summary     = %q{Rails Engine to provide BlueVia oAuth mechanism in a seamless way}
   s.description = %q{Rails Engine to provide BlueVia oAuth mechanism in a seamless way}
 
