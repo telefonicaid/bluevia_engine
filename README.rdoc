@@ -49,7 +49,7 @@ After creating a Rails 3 application...
 
 = License
 
-Check the {License}[LICENSE.txt] file.
+Check the {License}[http://github.com/telefonicaid/bluevia_engine/blob/master/LICENSE.txt] file.
 
 
 = Author
