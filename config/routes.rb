@@ -15,7 +15,7 @@
 #
 # Author:: Juan de Bravo (jdbd@tid.es)
 
-Rails.application.routes.draw do |map|
+Rails.application.routes.draw do
 
   get "bluevia/index"
   
